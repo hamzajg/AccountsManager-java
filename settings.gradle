@@ -1,0 +1,5 @@
+rootProject.name = 'AccountsManager'
+include 'domain'
+project(':domain').projectDir = new File(settingsDir, './src/domain')
+findProject('domain')?.name = 'domain'
+
