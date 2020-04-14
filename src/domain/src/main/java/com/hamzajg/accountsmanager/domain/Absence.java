@@ -7,7 +7,7 @@ public class Absence {
     private int employeeId;
     private LocalDate startDateTime;
     private LocalDate endDateTime;
-    private String Description;
+    private String description;
     private String notes;
     private boolean paid;
 
@@ -28,7 +28,7 @@ public class Absence {
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public String getNotes() {
